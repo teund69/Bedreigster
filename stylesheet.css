@@ -1,0 +1,119 @@
+* {
+margin: 0px;
+padding: 0px;
+border: 0px;
+box-sizing: border-box;
+}
+
+header {
+display: flex;
+flex-direction: column;
+position: sticky;
+width: 100%;
+top: 0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+z-index: 1; /* De eigenschap 'z-index' hebben we van ChatGPT */
+}
+
+#header {
+display: flex;
+flex-direction: row;
+background-color: rgb(245, 200, 0);
+color: rgb(0, 0, 0);
+padding: 20px;
+text-align: center;
+}
+
+#Bedreigster {
+padding: 0 0 0 20px;
+}
+
+#Youngboys {
+display: flex;
+align-items: start; /* De eigenschap 'align-items' hebben we van ChatGPT */
+}
+
+#menu {
+display: flex;
+flex-direction: row;
+background-color: rgb(216, 176, 0);
+}
+
+#menu a {
+text-decoration: none;
+color: black;
+}
+
+.button {
+padding: 10px 20px;
+transition: 0.3s;
+}
+
+.button:hover {
+background-color: rgb(175, 143, 0);
+}
+
+body {
+background-color: rgb(46, 46, 46);
+}
+
+#tekstblokenfotos {
+display: flex;
+flex-direction: row;
+}
+
+#fotos {
+display: flex;
+flex-direction: column;
+align-items: end;
+margin: 10px;
+color: white;
+}
+
+.foto img {
+border: 5px solid white;
+margin: 10px;
+}
+
+#ties img {
+border: 5px solid white;
+margin: 10px;
+margin-top: 0px;
+}
+
+#tekstblok {
+border: 5px solid white;
+width: 70%;
+height: 1845px;
+margin: 10px;
+padding: 20px;
+color: white;
+font-size: larger;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#film {
+position: relative;
+}
+
+.informatie {
+padding-top: 20px;
+}
+
+#lijst {
+padding: 5px 30px 30px 30px;
+}
+
+#overyoungboys, #hoeisditliedtotstandgekomen, #waaromditlied {
+scroll-margin-top: 120px; /* De eigenschap 'scroll-margin-top' hebben we van ChatGPT */
+}
+
+footer {
+background-color: rgb(0, 0, 0);
+color: white;
+padding: 20px;
+text-align: center;
+bottom: 0;
+width: 100%;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
